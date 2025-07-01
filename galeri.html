@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Brengsek | rafaarooo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f2f1ed;
+      --text: #2b2b2b;
+      --accent: #5c6d63;
+      --muted: #868681;
+      --border: #d4d3cf;
+    }
+
+    body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background: url('https://i.ibb.co/Q33dCL2z/63bd00df128547ffcf96d47a814dece2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: var(--text);
+}
+
+    header {
+  text-align: center;
+  padding: 40px 20px 20px;
+  color: #ffde7d; /* ← ganti warna sesuai yang kamu mau */
+}
+
+    header h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: #dcdcdc;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9em;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Galeri </h1>
+    <p>Kumpulan momen yang bikin suara jadi cerita</p>
+  </header>
+
+  <div class="gallery brengsek">
+    <!-- Ganti link src dengan gambar kamu -->
+    <img src="https://i.ibb.co/4h1LHZ1/MEITU-20250609-165848670.jpg" alt="take">
+    <img src="https://i.ibb.co/zHXf6H1V/20250318-020101.jpg" alt="take">
+    <img src="https://i.ibb.co/ZzwGFTby/IMG-20250118-130459-082.webp" alt="take">
+    <img src="https://i.ibb.co/pjVZ99hb/Photo-Room-20241215-181306.jpg" alt="take">
+    <img src="https://i.ibb.co/xtgxpZkJ/Photo-Room-20241215-182239.jpg" alt="take">
+    <img src="https://i.ibb.co/C3RpG0W8/Photo-Room-20241215-182750-1.jpg" alt="take">
+    <img src="https://i.ibb.co/67Wd8QVK/IMG-20241116-183323-729.webp" alt="take">
+    <img src="https://i.ibb.co/gZrQx3RJ/1724051077389.jpg" alt="take">
+    <img src="https://i.ibb.co/PsKS8wKS/PSX-1730563288072.jpg" alt="take">
+    <img src="https://i.ibb.co/pvDW8wkt/PSX-1730562687750.jpg" alt="take">
+    <img src="https://i.ibb.co/4wLvbmTx/Screenshot-20240103-173632-Cap-Cut.jpg" alt="galeri 12">
+    <img src="https://i.ibb.co/4nM8QtWx/Photo-Room-20240104-181928.jpg" alt="take">
+    <img src="https://i.ibb.co/m5WqrH34/Photo-Room-20240104-184508.jpg" alt="take">
+  </div>
+
+  <footer>
+  <p>&copy; 2025 rafaarooo.<br>Handcrafted in quiet nights, powered by noisy days and broken chords.</p>
+</footer>
+
+</body>
+</html>

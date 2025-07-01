@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raphael Christofelix</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f2f1ed;
+      --text: #2b2b2b;
+      --accent: #5c6d63;
+      --muted: #868681;
+      --border: #d4d3cf;
+      --section-bg: #ebeae6;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .hero {
+      background-image: url('https://i.ibb.co/gLPCT9K1/IMG-20240507-163956-738.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 0 20px;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.4);
+      z-index: 1;
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-text h1 span {
+      display: block;
+      font-size: clamp(1.5rem, 5vw, 2.5rem);
+      font-weight: 700;
+      letter-spacing: 1px;
+      line-height: 1.2;
+    }
+
+    .hero-text p {
+      font-size: 1em;
+      font-weight: 300;
+      margin-top: 15px;
+      letter-spacing: 1px;
+      color: #f2f2f2;
+    }
+
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section:last-child {
+      border-bottom: none;
+    }
+
+    .section-img {
+      width: 105px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 6px;
+      background-color: #bbb;
+      flex-shrink: 0;
+    }
+
+    .section-content {
+      flex: 1;
+    }
+
+    h2 {
+      color: var(--accent);
+      font-size: 1.3em;
+      margin: 0 0 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: var(--muted);
+      font-size: 0.9em;
+      background-color: var(--section-bg);
+      margin-top: 40px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: var(--accent);
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #3d4741;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="hero-text">
+      <h1>
+        <span>BIODATA</span>
+        <span>RAPHAEL</span>
+        <span>CHRISTOFELIX</span>
+      </h1>
+      <p>THIS IS RAFAAROOO</p>
+    </div>
+  </div>
+
+  <section>
+    <img class="section-img" src="https://i.ibb.co/zHXf6H1V/20250318-020101.jpg" alt="Cerita Dimulai">
+    <div class="section-content">
+      <h2>Cari tahu tentang rockstar satu ini</h2>
+      <h4>cerita dimulai dari sini!</h4>
+      <p>
+        Selamat datang di ruang kecil gue di internet.
+        Bukan siapa-siapa, cuma seseorang yang lagi nyusun potongan hidup, mimpi, dan keresahan jadi satu tempat.
+        Di sini lo bisa tau siapa gue — tanpa pencitraan, tanpa filter.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <img class="section-img" src="https://i.ibb.co/ZzwGFTby/IMG-20250118-130459-082.webp" alt="Siapa Saya">
+    <div class="section-content">
+      <h2>Siapa Guwe??</h2>
+      <p>
+        Bukan cuma soal nama dan umur. Tapi soal kenapa gue ada, gimana gue jalanin hidup,
+        dan alasan kenapa lo mungkin perlu kenal gue.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <img class="section-img" src="https://i.ibb.co/Kcz80bTk/MEITU-20250320-122708295.jpg" alt="Gue dan Musik">
+    <div class="section-content">
+      <h2>Gue, Musik, & Segalanya</h2>
+      <p>
+        Wanita di samping gue — dia nggak pernah tanya apa-apa.<br>
+        Tapi dari awal gelap ini, dia di situ. Diam. Setia. Misterius.<br>
+        Bukan sosok yang semua orang tahu, tapi gue nggak pernah lupa.<br><br>
+        Dan kayak musik dalam hidup gue — distorsi, emosi, dan lirik yang nggak selalu bisa dijelasin,
+        tapi selalu ngerti isi kepala gue. Dunia kecil ini, tempat gue sembunyi... sekaligus tempat gue bebas.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <img class="section-img" src="https://i.ibb.co/whmpqpTL/20250701-222347.jpg" alt="Galeri">
+    <div class="section-content">
+      <h2>Galeri </h2>
+      <h4> foto berantakan xixi</h4>
+      <p>Potongan momen gue dan suara yang ngebentuk semuanya.</p>
+      <a href="galeri.html" class="button">Lihat Galeri Gue</a>
+    </div>
+  </section>
+
+  <footer>
+  &copy; 2025 rafaarooo — dibuat dengan sedikit distorsi & banyak perasaan.
+</footer>
+
+</body>
+</html>
